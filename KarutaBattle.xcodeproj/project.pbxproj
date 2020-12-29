@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF1D567B259B6263006768D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1D567A259B6263006768D5 /* AppDelegate.swift */; };
+		AF1D567D259B6263006768D5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF1D567C259B6263006768D5 /* GameScene.sks */; };
+		AF1D567F259B6263006768D5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF1D567E259B6263006768D5 /* Actions.sks */; };
+		AF1D5681259B6263006768D5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1D5680259B6263006768D5 /* GameScene.swift */; };
+		AF1D5683259B6263006768D5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1D5682259B6263006768D5 /* GameViewController.swift */; };
+		AF1D5686259B6263006768D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1D5684259B6263006768D5 /* Main.storyboard */; };
+		AF1D5688259B6264006768D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1D5687259B6264006768D5 /* Assets.xcassets */; };
+		AF1D5693259B6264006768D5 /* KarutaBattleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1D5692259B6264006768D5 /* KarutaBattleTests.swift */; };
+		AF1D569E259B6264006768D5 /* KarutaBattleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1D569D259B6264006768D5 /* KarutaBattleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF1D568F259B6264006768D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1D566F259B6263006768D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF1D5676259B6263006768D5;
+			remoteInfo = KarutaBattle;
+		};
+		AF1D569A259B6264006768D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1D566F259B6263006768D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF1D5676259B6263006768D5;
+			remoteInfo = KarutaBattle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF1D5677259B6263006768D5 /* KarutaBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KarutaBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1D567A259B6263006768D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF1D567C259B6263006768D5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		AF1D567E259B6263006768D5 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		AF1D5680259B6263006768D5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AF1D5682259B6263006768D5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AF1D5685259B6263006768D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF1D5687259B6264006768D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF1D5689259B6264006768D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1D568E259B6264006768D5 /* KarutaBattleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarutaBattleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1D5692259B6264006768D5 /* KarutaBattleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarutaBattleTests.swift; sourceTree = "<group>"; };
+		AF1D5694259B6264006768D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1D5699259B6264006768D5 /* KarutaBattleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarutaBattleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1D569D259B6264006768D5 /* KarutaBattleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarutaBattleUITests.swift; sourceTree = "<group>"; };
+		AF1D569F259B6264006768D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF1D5674259B6263006768D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1D568B259B6264006768D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1D5696259B6264006768D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF1D566E259B6263006768D5 = {
+			isa = PBXGroup;
+			children = (
+				AF1D5679259B6263006768D5 /* KarutaBattle */,
+				AF1D5691259B6264006768D5 /* KarutaBattleTests */,
+				AF1D569C259B6264006768D5 /* KarutaBattleUITests */,
+				AF1D5678259B6263006768D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF1D5678259B6263006768D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D5677259B6263006768D5 /* KarutaBattle.app */,
+				AF1D568E259B6264006768D5 /* KarutaBattleTests.xctest */,
+				AF1D5699259B6264006768D5 /* KarutaBattleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF1D5679259B6263006768D5 /* KarutaBattle */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D567A259B6263006768D5 /* AppDelegate.swift */,
+				AF1D567C259B6263006768D5 /* GameScene.sks */,
+				AF1D567E259B6263006768D5 /* Actions.sks */,
+				AF1D5680259B6263006768D5 /* GameScene.swift */,
+				AF1D5682259B6263006768D5 /* GameViewController.swift */,
+				AF1D5684259B6263006768D5 /* Main.storyboard */,
+				AF1D5687259B6264006768D5 /* Assets.xcassets */,
+				AF1D5689259B6264006768D5 /* Info.plist */,
+			);
+			path = KarutaBattle;
+			sourceTree = "<group>";
+		};
+		AF1D5691259B6264006768D5 /* KarutaBattleTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D5692259B6264006768D5 /* KarutaBattleTests.swift */,
+				AF1D5694259B6264006768D5 /* Info.plist */,
+			);
+			path = KarutaBattleTests;
+			sourceTree = "<group>";
+		};
+		AF1D569C259B6264006768D5 /* KarutaBattleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D569D259B6264006768D5 /* KarutaBattleUITests.swift */,
+				AF1D569F259B6264006768D5 /* Info.plist */,
+			);
+			path = KarutaBattleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF1D5676259B6263006768D5 /* KarutaBattle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1D56A2259B6264006768D5 /* Build configuration list for PBXNativeTarget "KarutaBattle" */;
+			buildPhases = (
+				AF1D5673259B6263006768D5 /* Sources */,
+				AF1D5674259B6263006768D5 /* Frameworks */,
+				AF1D5675259B6263006768D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KarutaBattle;
+			productName = KarutaBattle;
+			productReference = AF1D5677259B6263006768D5 /* KarutaBattle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF1D568D259B6264006768D5 /* KarutaBattleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1D56A5259B6264006768D5 /* Build configuration list for PBXNativeTarget "KarutaBattleTests" */;
+			buildPhases = (
+				AF1D568A259B6264006768D5 /* Sources */,
+				AF1D568B259B6264006768D5 /* Frameworks */,
+				AF1D568C259B6264006768D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF1D5690259B6264006768D5 /* PBXTargetDependency */,
+			);
+			name = KarutaBattleTests;
+			productName = KarutaBattleTests;
+			productReference = AF1D568E259B6264006768D5 /* KarutaBattleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF1D5698259B6264006768D5 /* KarutaBattleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1D56A8259B6264006768D5 /* Build configuration list for PBXNativeTarget "KarutaBattleUITests" */;
+			buildPhases = (
+				AF1D5695259B6264006768D5 /* Sources */,
+				AF1D5696259B6264006768D5 /* Frameworks */,
+				AF1D5697259B6264006768D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF1D569B259B6264006768D5 /* PBXTargetDependency */,
+			);
+			name = KarutaBattleUITests;
+			productName = KarutaBattleUITests;
+			productReference = AF1D5699259B6264006768D5 /* KarutaBattleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF1D566F259B6263006768D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AF1D5676259B6263006768D5 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					AF1D568D259B6264006768D5 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = AF1D5676259B6263006768D5;
+					};
+					AF1D5698259B6264006768D5 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = AF1D5676259B6263006768D5;
+					};
+				};
+			};
+			buildConfigurationList = AF1D5672259B6263006768D5 /* Build configuration list for PBXProject "KarutaBattle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF1D566E259B6263006768D5;
+			productRefGroup = AF1D5678259B6263006768D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF1D5676259B6263006768D5 /* KarutaBattle */,
+				AF1D568D259B6264006768D5 /* KarutaBattleTests */,
+				AF1D5698259B6264006768D5 /* KarutaBattleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF1D5675259B6263006768D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1D5686259B6263006768D5 /* Main.storyboard in Resources */,
+				AF1D567D259B6263006768D5 /* GameScene.sks in Resources */,
+				AF1D5688259B6264006768D5 /* Assets.xcassets in Resources */,
+				AF1D567F259B6263006768D5 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1D568C259B6264006768D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1D5697259B6264006768D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF1D5673259B6263006768D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1D5681259B6263006768D5 /* GameScene.swift in Sources */,
+				AF1D5683259B6263006768D5 /* GameViewController.swift in Sources */,
+				AF1D567B259B6263006768D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1D568A259B6264006768D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1D5693259B6264006768D5 /* KarutaBattleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1D5695259B6264006768D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1D569E259B6264006768D5 /* KarutaBattleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF1D5690259B6264006768D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF1D5676259B6263006768D5 /* KarutaBattle */;
+			targetProxy = AF1D568F259B6264006768D5 /* PBXContainerItemProxy */;
+		};
+		AF1D569B259B6264006768D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF1D5676259B6263006768D5 /* KarutaBattle */;
+			targetProxy = AF1D569A259B6264006768D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF1D5684259B6263006768D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1D5685259B6263006768D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF1D56A0259B6264006768D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF1D56A1259B6264006768D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF1D56A3259B6264006768D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4264748Q3W;
+				INFOPLIST_FILE = KarutaBattle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mizuno.KarutaBattle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF1D56A4259B6264006768D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4264748Q3W;
+				INFOPLIST_FILE = KarutaBattle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mizuno.KarutaBattle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF1D56A6259B6264006768D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4264748Q3W;
+				INFOPLIST_FILE = KarutaBattleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mizuno.KarutaBattleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KarutaBattle.app/KarutaBattle";
+			};
+			name = Debug;
+		};
+		AF1D56A7259B6264006768D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4264748Q3W;
+				INFOPLIST_FILE = KarutaBattleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mizuno.KarutaBattleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KarutaBattle.app/KarutaBattle";
+			};
+			name = Release;
+		};
+		AF1D56A9259B6264006768D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4264748Q3W;
+				INFOPLIST_FILE = KarutaBattleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mizuno.KarutaBattleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KarutaBattle;
+			};
+			name = Debug;
+		};
+		AF1D56AA259B6264006768D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4264748Q3W;
+				INFOPLIST_FILE = KarutaBattleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mizuno.KarutaBattleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KarutaBattle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF1D5672259B6263006768D5 /* Build configuration list for PBXProject "KarutaBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1D56A0259B6264006768D5 /* Debug */,
+				AF1D56A1259B6264006768D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1D56A2259B6264006768D5 /* Build configuration list for PBXNativeTarget "KarutaBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1D56A3259B6264006768D5 /* Debug */,
+				AF1D56A4259B6264006768D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1D56A5259B6264006768D5 /* Build configuration list for PBXNativeTarget "KarutaBattleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1D56A6259B6264006768D5 /* Debug */,
+				AF1D56A7259B6264006768D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1D56A8259B6264006768D5 /* Build configuration list for PBXNativeTarget "KarutaBattleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1D56A9259B6264006768D5 /* Debug */,
+				AF1D56AA259B6264006768D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF1D566F259B6263006768D5 /* Project object */;
+}
